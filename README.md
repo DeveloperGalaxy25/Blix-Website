@@ -1,4 +1,4 @@
-# FORMA — Design-led Product Manufacturing Website
+# BlixToys — Design-led Product Manufacturing Website
 
 A responsive, multi-page website concept for a modern product design and manufacturing company. The visual direction is clean, editorial and design-led, with a muted green palette, lime accents, generous whitespace, responsive navigation and product-focused imagery.
 
@@ -13,8 +13,8 @@ A responsive, multi-page website concept for a modern product design and manufac
 Open `index.html` in a browser. No build tools or package installation are required.
 
 ## Before publishing
-1. Replace FORMA with the real company name and logo.
-2. Replace example product categories, descriptions, images and contact details with verified company information.
+1. Replace BlixToys with the real company name and logo.
+2. Replace example product categories, descriptions, images and contact details with verified company inBlixToystion.
 3. The images currently load from Unsplash and require an internet connection. Replace them with approved product/factory photos for production.
 4. The contact form is front-end demo only. Connect it to an email service, CRM, Shopify form, or backend endpoint to receive submissions.
 5. Add the company's actual certifications, manufacturing capacity, machinery, quality standards and legal pages. Do not publish placeholder claims as facts.
@@ -52,7 +52,7 @@ Prerequisite: install Node.js and Wrangler (`npm install -g wrangler`), then sig
    ```sh
    npx wrangler deploy
    ```
-5. Copy the deployed Worker URL, such as `https://forma-enquiry-api.<your-subdomain>.workers.dev`.
+5. Copy the deployed Worker URL, such as `https://BlixToys-enquiry-api.<your-subdomain>.workers.dev`.
 
 ### 3. Connect the website form
 1. Open `contact.html`.
@@ -67,5 +67,5 @@ If serving the site locally at `http://localhost:8000`, set `ALLOWED_ORIGIN = "h
 - Never put the service account JSON, private key, or spreadsheet ID in frontend JavaScript.
 - This Worker checks the website origin, validates fields, limits payload size, and includes a honeypot field. CORS is not authentication; add Cloudflare Turnstile and/or rate limiting before relying on this publicly.
 - The Worker records the client's IP and user agent for basic abuse diagnostics. Remove those columns from the Worker if you do not need them, and update your privacy notice accordingly.
-- Configure a real contact email and update the privacy policy before launch. Do not collect sensitive personal information in the project message.
+- Configure a real contact email and update the privacy policy before launch. Do not collect sensitive personal inBlixToystion in the project message.
 - The contact form only reports success after Google Sheets confirms that the row was appended.

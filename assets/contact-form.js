@@ -1,5 +1,5 @@
 /*
- * FORMA project enquiry form.
+ * BlixToys project enquiry form.
  * After deploying the Cloudflare Worker, replace WORKER_URL below with its URL.
  */
 (() => {
