@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap');
 
 :root {
@@ -658,11 +659,12 @@ select {
     padding: 80px 0 68px
 }
 
+/* Desktop: image stretches to match the complete left content height */
 .page-hero-grid {
     display: grid;
     grid-template-columns: 1fr .75fr;
     gap: 55px;
-    align-items: end
+    align-items: stretch
 }
 
 .page-hero .display {
@@ -670,13 +672,18 @@ select {
 }
 
 .page-hero-image {
-    height: 310px;
+    height: auto;
+    align-self: stretch;
     border-radius: 24px;
     overflow: hidden
 }
 
 .page-hero-image img {
-    height: 100%
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center
 }
 
 .filter-row {
@@ -1108,7 +1115,6 @@ select {
         padding: 28px
     }
 
-
     .trust-inner {
         justify-content: flex-start
     }
@@ -1137,36 +1143,36 @@ select {
     }
 }
 
-  .manufacturer-strip {
+.manufacturer-strip {
     width: 100%;
     background-color: #ea8a23;
     padding: 24px 20px;
     text-align: center;
     box-sizing: border-box;
-  }
+}
 
-  .manufacturer-strip p {
+.manufacturer-strip p {
     margin: 0;
     color: #ffffff;
     font-size: clamp(20px, 3vw, 36px);
     font-weight: 600;
     line-height: 1.3;
     letter-spacing: -0.8px;
-  }
+}
 
-  .manufacturer-strip span {
+.manufacturer-strip span {
     font-family: Georgia, serif;
     font-weight: 500;
     font-style: italic;
-  }
+}
 
-  @media (max-width: 749px) {
+@media (max-width: 749px) {
     .manufacturer-strip {
-      padding: 20px 16px;
+        padding: 20px 16px;
     }
 
     .manufacturer-strip p {
-      font-size: 23px;
-      letter-spacing: -0.5px;
+        font-size: 23px;
+        letter-spacing: -0.5px;
     }
-  }
+}
