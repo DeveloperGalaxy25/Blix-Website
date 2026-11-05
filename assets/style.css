@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap');
 
 :root {
-    --ink: #17231f;
-    --muted: #69756f;
+    --ink: #885926;
+    --muted: #9a7046;
     --paper: #f7f7f2;
     --white: #fff;
-    --lime: #d6f36a;
+    --lime: #fe9a2f;
     --line: #e3e7df;
-    --green: #294a3b;
+    --coral: #ba8348;
     --soft: #edf1e7;
     --radius: 22px;
     --max: 1180px
@@ -60,14 +60,14 @@ select {
     letter-spacing: .14em;
     font-size: .72rem;
     font-weight: 700;
-    color: #567060
+    color: var(--muted)
 }
 
 .eyebrow:before {
     content: '';
     width: 24px;
     height: 2px;
-    background: #a5c34d
+    background: var(--lime)
 }
 
 .display {
@@ -139,7 +139,7 @@ select {
 }
 
 .btn-dark:hover {
-    background: var(--green);
+    background: var(--coral);
     transform: translateY(-2px)
 }
 
@@ -191,10 +191,10 @@ select {
 }
 
 .brand-mark {
-    width: 35px;
-    height: 35px;
+    width: 32px;
+    height: auto;
     border-radius: 11px;
-    background: var(--lime);
+    background: transparent;
     display: grid;
     place-items: center;
     color: var(--ink);
@@ -521,7 +521,7 @@ select {
 }
 
 .dark-section {
-    background: var(--ink);
+    background: #211100;
     color: white
 }
 
@@ -759,7 +759,7 @@ select {
 }
 
 .contact-card {
-    background: var(--green);
+    background: var(--coral);
     color: white;
     border-radius: 24px;
     padding: 30px
@@ -1139,7 +1139,7 @@ select {
 
   .manufacturer-strip {
     width: 100%;
-    background-color: #78934a;
+    background-color: #ea8a23;
     padding: 24px 20px;
     text-align: center;
     box-sizing: border-box;
