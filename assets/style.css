@@ -1177,3 +1177,13 @@ select {
         letter-spacing: -0.5px;
     }
 }
+
+
+/* CUSTOM STYLES */
+
+.brand-title {
+    font-family: inherit;
+    font-weight: 800;
+    font-size: 1.6rem;
+    color: var(--ink)
+}
