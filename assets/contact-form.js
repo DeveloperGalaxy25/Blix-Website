@@ -1,4 +1,7 @@
 
+
+console.log("Contact form script loaded.");
+
 document.addEventListener("DOMContentLoaded", () => {
     const form = document.getElementById("project-enquiry-form");
 
